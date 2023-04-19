@@ -22,5 +22,25 @@ pipeline {
                 echo 'Hello manzeer'
             }
         }
+        stage('Hello-1') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('hai-1') {
+            steps {
+                echo 'hi World'
+            }
+        }
+        stage('sandaya-1') {
+            steps {
+                echo 'hi sandya'
+            }
+        }
+        stage('manzeer-1') {
+            steps {
+                echo 'Hello manzeer'
+            }
+        }
     }
 }
