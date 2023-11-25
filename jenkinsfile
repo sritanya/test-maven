@@ -40,8 +40,7 @@ echo "Deploying the Project.........."
 ansiblePlaybook credentialsId: 'edf29c56-6626-4ce1-a40e-4d6a98e6afea', disableHostKeyChecking: true, installation: 'ansible', inventory: 'dev.inv', playbook: 'play.yml', sudoUser: null
 }
 }
-}
-}
+}}
 */
 
 node {
